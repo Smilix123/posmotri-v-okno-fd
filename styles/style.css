@@ -213,16 +213,32 @@ ol {
 .content__video-card-description-container {
   padding-left: 3px;
 }
+/*
+.content__video-card-description {
+  display: -webkit-box;
+  width: 194px;
+  max-height: 50px;
+  padding-bottom: 0.5px;
+  overflow: hidden;
+  color: #fff;
+  line-height: 90%;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+*/
 
 .content__video-card-description {
   display: -webkit-box;
   width: 194px;
+  /* max-height: 50px; */
+  /* padding-bottom: 0.5px; */
   overflow: hidden;
   color: #fff;
-  line-height: 90%;
+  /* line-height: 90%; */
+  text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
-  padding-bottom: 0.5px;
 }
 
 .content__video-card-thumbnail {
